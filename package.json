@@ -1,0 +1,17 @@
+{
+  "name": "browser_open_action",
+  "version": "1.0.0",
+  "description": "A simple Node.js project to open URLs based on the action specified",
+  "main": "aem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aem:main": "node aem.js main",
+    "aem:test": "node aem.js test",
+    "aem:author:": "node aem.js author:"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^10.1.0"
+  }
+}
